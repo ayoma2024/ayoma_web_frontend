@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Admin Login Page">
+  <meta name="author" content="Your Company">
+  <title>Admin Login</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      background: linear-gradient(120deg, #6e7cfd, #5560ea);
+      font-family: 'Poppins', sans-serif;
+    }
+    .login-container {
+      max-width: 450px;
+      margin: auto;
+      padding: 30px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    .login-header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .login-header h2 {
+      font-weight: 600;
+      color: #333;
+    }
+    .form-control {
+      border-radius: 50px;
+      border: 1px solid #ddd;
+      box-shadow: none;
+      transition: all 0.3s ease;
+    }
+    .form-control:focus {
+      box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+      border-color: #007bff;
+    }
+    .btn-primary {
+      border-radius: 50px;
+      background-color: #5560ea;
+      border: none;
+    }
+    .btn-primary:hover {
+      background-color: #3a4fbd;
+    }
+    .forgot-link {
+      text-align: center;
+      margin-top: 15px;
+    }
+    .forgot-link a {
+      color: #5560ea;
+      text-decoration: none;
+    }
+    .forgot-link a:hover {
+      text-decoration: underline;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 0.9em;
+    }
+    .footer a {
+      color: #5560ea;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container mt-5">
+    <div class="login-container">
+      <div class="login-header">
+        <h2>Admin Login</h2>
+      </div>
+      <form>
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" class="form-control" id="username" placeholder="Enter your username" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary btn-block">Login</button>
+        </div>
+      </form>
+      <div class="footer">
+        <p>&copy; 2024 Ayoma Classic. <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

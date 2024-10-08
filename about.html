@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ayoma Classic</title>
+    <!-- bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <style>
+        body {
+            background: linear-gradient(to bottom, rgb(255, 255, 255), skyblue);
+        }
+        .navbar {
+            background-color: #f4f4f4;
+        }
+        .navbar-brand img {
+            height: 50px;
+        }
+        .card {
+            border: none;
+        }
+        .card-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        .card-text {
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        .hover-card {
+            transition: transform 0.2s;
+        }
+        .hover-card:hover {
+            transform: scale(1.05);
+            box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        footer img {
+            margin-bottom: 30px; 
+        }
+        footer {
+            padding: 20px 0;
+        }
+        footer a {
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        #backToTop {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            display: none;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- main head -- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./images/logo/ayoma name n logo.png" alt="Logo" width="100%">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" style="font-size: 18px; font-weight: 600; color: rgb(15, 46, 157);" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="font-size: 18px; font-weight: 600; color: rgb(15, 46, 157);" href="./products.html"#products>Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="font-size: 18px; font-weight: 600; color: rgb(15, 46, 157);" href="./testimonials.html"#service>Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="font-size: 18px; font-weight: 600; color: rgb(15, 46, 157);" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div>
+            <p class="text-center" style="font-weight: 700; font-size: 30px;">About Us</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div>
+            <p>At Ayoma Classic, we are dedicated to providing top-quality printing services tailored to meet your unique needs. With years of experience in the industry, we have honed our craft to deliver exceptional products that stand out for their precision, durability, and visual appeal. Whether you're looking for customized ID cards, personalized lanyards, or promotional keychains, our team is committed to ensuring that every project is executed with the utmost care and attention to detail. We pride ourselves on our ability to deliver timely, reliable service without compromising on quality, making sure you receive the best possible results for your business or personal needs.</p>
+
+            <p>Our wide range of services includes everything from leaflet and brochure printing to specialized items like ID cards and promotional products. We believe in making the process as simple and convenient as possible. You can submit your design files directly through our website, choose the quantity you need, and rest assured that we will handle the rest, ensuring that your order is printed, packaged, and delivered quickly. At Ayoma Classic, we are not just about printing, we're about creating solutions that help you make a lasting impression. <a href="./products.html"><button class="btn btn-info">View our products <i class='fas fa-angle-right'></i></button></a></p>
+                
+            <p class="text-black" style="font-size: 28px; font-weight: 700;"> Visit Us: </p>
+            <h4 class="text-center mt-5">Kochi</h4>
+            <div class="container-fluid">
+                <iframe id="frame1" width="99.7%" height="300px" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15717.235392523677!2d76.2848094!3d9.9913267!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7a2fa1f44f9181f1!2sAyoma+Classic!5e0!3m2!1sen!2sin!4v1531155128314" frameborder="0"></iframe>
+            </div>
+            <p>41/2493, 1st Floor Rasheed Building, Opp AV Residency, St Benedict Road, Ernakulam,Kochi, Kerala 682018</p>   
+
+            <hr>
+
+            <h4 class="text-center mt-5">Thiruvalla</h4>
+            <div class="container-fluid">
+                <iframe id="frame2" width="99.7%" height="300px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d737.248832991264!2d76.57329615289827!3d9.383019625883474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0624731a4b07b7%3A0x29edfb5432575c5e!2sCVP+Parliament+Square!5e0!3m2!1sen!2sin!4v1531156181728" frameborder="0"></iframe>
+            </div>
+            <p>Branch - 24G / CVP Parliament Square, Cross Jn. Thiruvalla</p>
+
+            <hr>
+
+            <P style="font-size: 20px; font-weight: 500;">Contact Us:</P>
+            <P>Mob: +91-9847404373 <br>
+               Tel: +91-484-2398373 <br>
+               Email: ayomaclassic@gmail.com</P>
+
+                <p class="text-center mt-5" style="font-size: 22px; font-weight: 500;">We look forward to working with you and bringing your printing ideas to life!</p>
+            
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white pt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <img src="./images/logo/ayoma name n logo.png" alt="Ayoma Classic Logo" class="img-fluid" style="max-width: 150px;">
+                    <p>At Ayoma Classic, we specialize in high-quality printing services, including ID cards, lanyards, and promotional keychains. Our commitment to excellence ensures that your branding needs are met with precision and care.</p>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="./index.html" class="text-light">Home</a></li>
+                        <li><a href="./about.html" class="text-white">About</a></li>
+                        <li><a href="./products.html" class="text-light">Products</a></li>
+                        <li><a href="./contact.html" class="text-light">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <h5>Contact Us</h5>
+                    <p>Email: <a href="mailto:info@ayomaclassic.com" class="text-light">info@ayomaclassic.com</a></p>
+                    <p>Phone: <a href="tel:+1234567890" class="text-light">+91 9876543210</a></p>
+                    <p>Address: ayoma Classic, Suite 456, City, State / Country</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com" target="_blank" class="text-light me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com" target="_blank" class="text-light me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/yourwhatsappphonenumber" target="_blank" class="text-light"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center pt-4">
+                <p>&copy; 2024 Ayoma Classic. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

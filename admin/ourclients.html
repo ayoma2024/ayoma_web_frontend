@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayoma Admin Dashboard</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- FontAwesome Icons link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      background-color: #f4f7f6;
+      font-family: 'Arial', sans-serif;
+    }
+    .sidebar {
+      height: 100vh;
+      background: linear-gradient(180deg, #3b8d99, #6c9ea1);
+      padding-top: 20px;
+      color: white;
+      box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    }
+    .sidebar a {
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 20px;
+      display: block;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    .sidebar a:hover {
+      background-color: #7e7d7d;
+      color: #fff;
+    }
+    .sidebar a.active {
+      background-color: #3498db;
+    }
+    .top-navbar {
+      background: linear-gradient(90deg, #ffffff, #1f6ef7);
+      padding: 15px;
+    }
+    .top-navbar .navbar-brand {
+      color: white;
+      font-weight: bold;
+    }
+    .top-navbar .navbar-brand:hover {
+      color: white;
+    }
+    .card {
+      border-radius: 15px;
+      border: none;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    .card-header {
+      background: linear-gradient(145deg, #6e7dff, #5e72e4);
+      color: white;
+      font-weight: bold;
+      border-bottom: none;
+    }
+    .card-body {
+      background-color: #fff;
+      color: #333;
+    }
+    .content {
+      padding: 20px;
+      min-height: 80vh;
+    }
+    @media (max-width: 768px) {
+      .sidebar {
+        display: none;
+      }
+      .content {
+        margin-top: 60px;
+      }
+    }
+    .card:hover {
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+    .btn-custom {
+      background-color: #3498db;
+      color: white;
+    }
+    .btn-custom:hover {
+      background-color: #2980b9;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark top-navbar">
+    <a class="navbar-brand" href="#"><img src="../images/logo/ayoma name n logo.png" alt="" width="40%"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./adminindex.html"><i class="fas fa-user-circle text-light"></i> Admin</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./adminview.html"><i class="fas fa-chart-line"></i> Orders</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="./ourclients.html"><i class="fas fa-users"></i> Testimonials</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./adminlogin.html"><i class="fas fa-sign-out-alt"></i> Logout</a>
+            </li>
+          </ul>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 sidebar d-none d-md-block">
+        <div class="list-group">
+            <a href="./adminindex.html" class="list-group-item list-group-item-action active"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+            <a href="./ourclients.html" class="list-group-item list-group-item-action text-dark"><i class="fas fa-users"></i> Clients</a>
+            <a href="./activities.html" class="list-group-item list-group-item-action text-dark"><i class="fas fa-cogs"></i> Works</a>
+            <a href="./adminview.html" class="list-group-item list-group-item-action text-dark"><i class="fas fa-chart-line"></i> Orders</a>
+        </div>
+      </div>
+      <div class="col-md-9 content">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="mb-4">Welcome to Ayoma classic Admin Dashboard</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="row mt-5">
+                <div class="col-1 col-sm-1 col-md-1"></div>
+                <div class="col-2 col-sm-2 col-md-2">
+                    <img src="../images/dealers/New Project (6).png" alt="" class="img-fluid">
+                </div>
+                <div class="col-2 col-sm-2 col-md-2">
+                    <img src="../images/dealers/New Project (7).png" alt="" class="img-fluid">
+                </div>
+                <div class="col-2 col-sm-2 col-md-2">
+                    <img src="../images/dealers/New Project (8).png" alt="" class="img-fluid">
+                </div>
+                <div class="col-2 col-sm-2 col-md-2">
+                    <img src="../images/dealers/New Project (9).png" alt="" class="img-fluid">
+                </div>
+                <div class="col-2 col-sm-2 col-md-2">
+                    <img src="../images/dealers/New Project (5).png" alt="" class="img-fluid"> 
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
